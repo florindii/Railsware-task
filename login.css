@@ -1,0 +1,229 @@
+.container {
+    position: relative;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+}
+
+.wrapper {
+    display: flex;
+    position: absolute;
+    top: 29px;
+    right: 50%;
+    left: 50%;
+    /* height: 100vh; */
+    flex-direction: column;
+    align-items: center;
+}
+
+.wrapper-1 {
+    width: 212px;
+    height: 212px;
+    background: bisque;
+    background: url('./images/Login-illustration.png');
+}
+
+.wrapper-2 {
+    width: 344px;
+    height: 42px;
+    margin-top: 36px;
+}
+
+.wrapper-3 {
+    width: 344px;
+}
+
+.wrapper-3 form p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    color: #1A4F8B;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+
+
+.wrapper-3 ::placeholder {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 16px;
+    color: #1A4F8B;
+}
+
+.wrapper-3 .icon {
+    background: url('/images/contacts-icon.png') no-repeat left;
+    padding-left: 30px;
+    background-size: 25px;
+}
+
+.wrapper-2 h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #000000;
+    text-align: center;
+}
+
+
+
+.input-field {
+    width: 344px;
+    height: 50px;
+    background: #FFFFFF;
+    border: 1px solid #C3C3C3;
+    border-radius: 5px;
+    margin-top: 36px;
+    padding-left: 15px;
+    display: inline-flex;
+    align-items: center;
+}
+
+
+.active-input {
+    width: 344px;
+    height: 50px;
+    background: #FFFFFF;
+    border: 1px solid #1A4F8B;
+    border-radius: 5px;
+    margin-top: 36px;
+    padding-left: 15px;
+    display: inline-flex;
+    align-items: center;
+}
+
+
+input {
+    border: 0;
+    outline: 0;
+    padding-left: 10px;
+    width: 100%;
+}
+
+input:focus {
+    outline: none !important;
+}
+
+button {
+    width: 344px;
+    height: 50px;
+    background: #1A4F8B;
+    border-radius: 8px;
+    margin-top: 50px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: 0px;
+}
+
+button:hover {
+    font-family: 'Roboto';
+    background: #FFFFFF;
+    color: #1A4F8B;
+    border: 1px solid;
+}
+
+.wrapper-4 {
+    height: auto;
+    width: 100%;
+    display: flex;
+    position: absolute;
+    bottom: 151px;
+    justify-content: center;
+}
+
+.wrapper-4 p {
+
+    color: #B0B0B0;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.wrapper-4 span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #1A4F8B;
+    cursor: pointer;
+}
+
+.wrapper-5 {
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 75px;
+}
+
+.wrapper-5 .facebook-button {
+    width: 165px;
+    height: 40px;
+    margin-right: 14px;
+    background: #1A4F8B;
+    border-radius: 8px;
+    margin-top: 50px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    border: 0px;
+}
+
+.wrapper-5 .facebook-button:hover {
+    font-family: 'Roboto';
+    background: #FFFFFF;
+    color: #1A4F8B;
+    border: 1px solid;
+}
+
+.wrapper-5 .google-button {
+    width: 165px;
+    height: 40px;
+    margin-right: 14px;
+    background: #F14436;
+    border-radius: 8px;
+    margin-top: 50px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    border: 0px;
+
+
+
+}
+
+.wrapper-5 .google-button:hover {
+    font-family: 'Roboto';
+    background: #FFFFFF;
+    color: #F14436;
+    border: 1px solid;
+}
