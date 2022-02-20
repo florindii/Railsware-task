@@ -55,6 +55,11 @@
     <script lang="javascript">
         
             // toggle focus on input fields
+            $('.input-field input').focus(function () {
+                $(this).parent().addClass('active-input');
+            }).blur(function () {
+                $(this).parent().removeClass('active-input');
+            });
 
             $('.input-field-card-1 input').focus(function () {
                 $(this).parent().addClass('active-input');
@@ -67,6 +72,8 @@
             }).blur(function () {
                 $(this).parent().removeClass('active-input');
             });
+
+            
 
     </script>
   </body>
